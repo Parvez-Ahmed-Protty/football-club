@@ -10,7 +10,7 @@ body {
 }    
 hr{
     border: 1px solid #0f132b;
-    width: 200px;
+    width: 220px;
     margin:  0 auto;
     margin-bottom:20px ;
 }
@@ -262,3 +262,84 @@ hr{
 /* --------------------------------
         footer-section end 
 -----------------------------------*/
+/* --------------------------------------
+Mobile Responsive Section start
+-----------------------------------------*/
+    /* Normal deviese */
+    @media only screen and (max-width:687px) {
+        .banner-container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .banner-left-content{
+            width: 50%;
+            padding-left: 16px;
+            padding-top: 112px;
+            padding-right: 66px;
+        }
+        .banner-left-content h1{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 50px;
+            margin: 0px;
+            padding-bottom: 27px;
+        }
+        .banner-left-content a{
+            width: 168px;
+            height: 44px;
+            padding: 10px 24px 10px 24px;
+            background-color: #E02C6D;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .banner-right-content {
+            width: 40%;
+            padding-top: 50px;
+            display: flex;
+        }
+        .banner-right-content img {
+            width: 329px;
+            height: 260px;
+            margin: 0px -16px -50px -16px;
+        }
+        .blog {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            grid-row-gap:30px;
+        }
+        .highlights-content{
+            display: grid;
+            grid-template-columns: repeat(1, 200px);
+            justify-content: center;
+            margin-left: 50px;
+        }
+        .match img {
+            width: 300px;
+            height: 300px;
+            margin-top: 30px;
+        }
+        .news{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .news-content{
+            flex-direction: column;
+        }
+        .all-teem{
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center;
+        }
+        .footer-logo img {
+            height: 65px;
+            padding-top: 40px;
+            padding-right: 35px;
+        }
+    }
+    /* Normal deviese */
+    
+/* --------------------------------------
+Mobile Responsive Section end
+-----------------------------------------*/
