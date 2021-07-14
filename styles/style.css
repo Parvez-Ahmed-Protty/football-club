@@ -203,6 +203,7 @@ hr{
     grid-row-gap: 27px;
     margin-left: 150px;
     margin-right: 145px;
+    margin-bottom: 90px;
 }
 .teem{
     text-align: center;
@@ -214,4 +215,38 @@ hr{
 }
 /* --------------------------------
         teem-section end 
+-----------------------------------*/
+/* --------------------------------
+        footer-section end 
+-----------------------------------*/
+.footer-section {
+    margin-bottom: 63px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo img {
+    width: 483.87px;
+    height: 110px;
+}
+.footer-social-icon{
+    text-align: center;
+}
+.footer-social-icon i {
+    font-size: 17px;
+    background: #969BAB;
+    opacity: 0.3;
+    color: #0B0D17;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 14px;
+}
+.footer-title{
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* --------------------------------
+        footer-section end 
 -----------------------------------*/
