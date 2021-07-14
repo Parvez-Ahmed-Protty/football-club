@@ -45,6 +45,11 @@ hr{
     padding: 10px 24px 10px 24px;
     background-color: #E02C6D;
     color: #FFFFFF;
+    transition: background-color 1s ease-in-out;
+}
+.link-button:hover{
+    background-color: #2D25A0;
+    color: #FFFFFF;
 }
 .fa-arrow-right {
     margin-left: 8px;
@@ -56,6 +61,10 @@ hr{
 .banner-right-content img {
     width: 556px;
     height: 438px;
+    transition: transform 1s ease-in-out;
+}
+.banner-right-content img:hover{
+    transform: scale(1)  translate(14px , -12px);
 }
 /* --------------------------------
         hader-section end
@@ -87,6 +96,10 @@ hr{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px 15px 10px 15px;
     box-sizing: border-box;
+    transition: box-shadow 1s ease-in-out;
+}
+.blog-content:hover{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
 }
 .blog-content img {
     width: 300px;
@@ -196,7 +209,6 @@ hr{
 /* --------------------------------
          teem-section start
 -----------------------------------*/
-
 .all-teem{
     display: grid;
     grid-template-columns: repeat(3,1fr);
